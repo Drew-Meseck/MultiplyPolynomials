@@ -1,0 +1,11 @@
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\bin\Debug\netcoreapp2.1\MultiplyPolynomials.deps.json
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\bin\Debug\netcoreapp2.1\MultiplyPolynomials.runtimeconfig.json
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\bin\Debug\netcoreapp2.1\MultiplyPolynomials.runtimeconfig.dev.json
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\bin\Debug\netcoreapp2.1\MultiplyPolynomials.dll
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\bin\Debug\netcoreapp2.1\MultiplyPolynomials.pdb
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\obj\Debug\netcoreapp2.1\MultiplyPolynomials.csprojAssemblyReference.cache
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\obj\Debug\netcoreapp2.1\MultiplyPolynomials.csproj.CoreCompileInputs.cache
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\obj\Debug\netcoreapp2.1\MultiplyPolynomials.AssemblyInfoInputs.cache
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\obj\Debug\netcoreapp2.1\MultiplyPolynomials.AssemblyInfo.cs
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\obj\Debug\netcoreapp2.1\MultiplyPolynomials.dll
+C:\Users\droot\Documents\Junior Year Fall\Algorithms and Data Structures\MultiplyPolynomials\MultiplyPolynomials\obj\Debug\netcoreapp2.1\MultiplyPolynomials.pdb
