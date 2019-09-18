@@ -34,30 +34,35 @@ namespace MultiplyPolynomials
         {
             for (int i = 0; i < node.Count; i++)
             {
-                for (int j = 1; j < node.Count; j ++)
+                for (int j = 1; j + i < node.Count; j++)
                 {
-                    if (node[i].exp == node[j].exp)
+                    if (node[i].exp == node[j + i].exp)
                     {
-                        node[i].coef += node[j].coef;
-                        node.RemoveAt(j);
+                        node[i].coef += node[j + i].coef;
+                        node.RemoveAt(j + i);
                     }
                 }
             }
 
-            //Make sure no elements are now 0 as a result of the merge for full simplification
-
-            int[] NewPoly = new int[node.Count*2 + 1];
-            NewPoly[0] = node.Count;
-            int f = 1;
-            for(int i = 1; i < node.Count-1; i++)
+            for(int i = 0; i < node.Count; i++)
             {
-                NewPoly[f] = node[i].exp;
-                NewPoly[f + 1] = node[i + 1].coef;
-                f += 2;
+                if(node[i].coef == 0)
+                {
+                    node.RemoveAt(i);
+                }
+            }
+
+            int[] NewPoly = new int[(node.Count*2) + 1];
+            NewPoly[0] = node.Count;
+            int f = 0;
+            for(int i = 1; i < NewPoly.Length - 1; i += 2)
+            {
+                NewPoly[i] = node[f].exp;
+                NewPoly[i + 1] = node[f].coef;
+                f++;
             }
             return NewPoly;
         }
-
         public static void PrintArray(int[] arr)
         {
             Console.Write("[ ");
